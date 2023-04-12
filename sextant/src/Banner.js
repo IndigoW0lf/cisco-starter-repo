@@ -4,7 +4,7 @@ import './Banner.css';
 function Banner() {
   return (
     <div className="Banner">
-      <h1>Aloha Universe</h1>
+      <h1>Cisco Sextant</h1>
     </div>
   );
 }
