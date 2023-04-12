@@ -1,0 +1,13 @@
+
+.Banner {
+  background-color: #263238;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.Banner h1 {
+  font-size: 3rem;
+}
