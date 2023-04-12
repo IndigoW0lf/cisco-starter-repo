@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner';
 import Exhibit from './Exhibit';
 import IpAddress from './IpAddress';
+import PacketLatency from './PacketLatency';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       </Exhibit>
       <Exhibit title="IPV6 Address">
         <IpAddress type="ipv6" />
+      </Exhibit>
+      <Exhibit title="Packet Latency">
+        <PacketLatency />
       </Exhibit>
     </div>
   );
